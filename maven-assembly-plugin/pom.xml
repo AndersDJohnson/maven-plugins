@@ -61,7 +61,7 @@ under the License.
     <mdoVersion>2.0.0</mdoVersion>
     <mavenArchiverVersion>3.1.1</mavenArchiverVersion>
     <mavenFilteringVersion>3.1.1</mavenFilteringVersion>
-    <mavenVersion>3.0</mavenVersion>
+    <mavenVersion>3.10.0</mavenVersion>
     <testOutputToFile>true</testOutputToFile>
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,ModifierOrder,JavadocMethod</checkstyle.violation.ignore>
   </properties>
@@ -147,7 +147,7 @@ under the License.
     <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
-    <version>2.5</version>
+    <version>2.14.0</version>
   </dependency>
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
@@ -167,7 +167,7 @@ under the License.
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-utils</artifactId>
-      <version>3.0.24</version>
+      <version>3.6.1</version>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
@@ -225,7 +225,7 @@ under the License.
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -414,12 +414,12 @@ under the License.
               <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.9</version>
+                <version>1.26.0</version>
               </dependency>
               <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.4</version>
+                <version>2.14.0</version>
               </dependency>
             </dependencies>
           </plugin>
